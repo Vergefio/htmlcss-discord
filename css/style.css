@@ -168,6 +168,12 @@ footer {
 
 .footer-top span {
   color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer-top img {
+  
 }
 
 .footer-bottom {

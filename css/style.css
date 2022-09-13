@@ -1,0 +1,98 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  height: 80px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron {
+  height: 550px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron .content {
+  max-width: 800px;
+  background-color: brown;
+}
+
+main{
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section .bg-grey {
+  background-color: blanchedalmond;
+}
+
+section .container {
+  display: flex;
+  min-height: 500px;
+  background-color: azure;
+}
+
+section .container .img {
+  width: 60%;
+  min-width: 300px;
+  background-color: bisque;
+}
+
+section .container .text {
+  width: 40%;
+  min-width: 300px;
+  background-color: yellowgreen;
+}
+
+section.section-bottom .container{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-top{
+  display: flex;
+  background-color: aquamarine;
+  min-height: 300px;
+}
+
+.footer-top .col-social{
+  width: calc(100% / 3);
+  min-height: 200px;
+  background-color: darkgreen;
+}
+
+.footer-top .col-menu{
+  width: calc(100% / 6);
+
+}
+
+.footer-bottom{
+  min-height: 200px;
+  background-color: cornflowerblue;
+}

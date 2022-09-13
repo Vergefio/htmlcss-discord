@@ -2,10 +2,11 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  outline: 2px solid red;
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -24,9 +25,31 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 3.125rem;
+  list-style: none;
+  color: white;
+}
+
+li:hover {
+  text-decoration: underline rebeccapurple;
+  color: black;
+}
+
+header .button {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  color: #292d30;
 }
 
 .jumbotron {
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
   height: 550px;
   background-color: lightblue;
   display: flex;
@@ -37,6 +60,30 @@ header .container {
 .jumbotron .content {
   max-width: 800px;
   background-color: brown;
+  text-align: center;
+  color: white;
+}
+
+.content p {
+  padding: 2rem;
+}
+
+.button-1 {
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.button-2 {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  padding-bottom: 1rem;
 }
 
 main {

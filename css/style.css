@@ -39,8 +39,8 @@ header .container {
   background-color: brown;
 }
 
-main{
-  margin-bottom: 10px;
+main {
+  margin-top: 50px;
 }
 
 section {
@@ -69,30 +69,39 @@ section .container .text {
   background-color: yellowgreen;
 }
 
-section.section-bottom .container{
+section.section-bottom .container {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.footer-top{
+footer {
+  background-color: lightgoldenrodyellow;
+}
+
+.footer-top {
   display: flex;
   background-color: aquamarine;
   min-height: 300px;
 }
 
-.footer-top .col-social{
+.footer-bottom {
+  min-height: 300px;
+  background-color: coral;
+}
+
+.footer-top .col-social {
   width: calc(100% / 3);
   min-height: 200px;
   background-color: darkgreen;
 }
 
-.footer-top .col-menu{
+.footer-top .col-menu {
   width: calc(100% / 6);
-
+  min-height: 200px;
 }
 
-.footer-bottom{
+.footer-bottom {
   min-height: 200px;
   background-color: cornflowerblue;
 }

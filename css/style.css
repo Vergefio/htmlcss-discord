@@ -129,19 +129,19 @@ section.section-bottom .container {
 }
 
 .box-bottom {
- border-radius: 20px;
+  border-radius: 20px;
   background-color: white;
   color: #23272a;
   padding: 10px;
 }
 
 footer {
-  background-color: lightgoldenrodyellow;
+  background-color: #23272a;
 }
 
 .footer-top {
   display: flex;
-  background-color: aquamarine;
+  background-color: #23272a;
   min-height: 300px;
 }
 
@@ -153,12 +153,21 @@ footer {
 .footer-top .col-social {
   width: calc(100% / 3);
   min-height: 200px;
-  background-color: darkgreen;
+  background-color: #23272a;
 }
 
 .footer-top .col-menu {
   width: calc(100% / 6);
   min-height: 200px;
+}
+
+.footer-top h2 {
+  color: #768ee3;
+  font-size: 2.5rem;
+}
+
+.footer-top span {
+  color: white;
 }
 
 .footer-bottom {
